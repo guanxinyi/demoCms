@@ -1,9 +1,14 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: guanxiaoxin
+ * @Date: 2021-02-20 14:28:38
+ * @LastEditors: guanxiaoxin
+ * @LastEditTime: 2021-02-22 09:23:52
+ * @FilePath: /ams_pc/src/App.vue
+-->
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
+  <router-view />
 </template>
 
 <style lang="scss">
