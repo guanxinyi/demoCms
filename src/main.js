@@ -4,8 +4,8 @@
  * @Author: guanxiaoxin
  * @Date: 2021-02-20 14:28:38
  * @LastEditors: guanxiaoxin
- * @LastEditTime: 2021-02-22 09:32:32
- * @FilePath: /ams_pc/src/main.js
+ * @LastEditTime: 2021-02-22 17:26:30
+ * @FilePath: /demoCms/src/main.js
  */
 // import { createApp } from 'vue' 
 
@@ -13,7 +13,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-// import './permission' // 权限部分匹配后端路由，后端无接口，有了接口权限再打开并且修改permission部分
+import './permission' // 权限部分匹配后端路由，后端无接口，有了接口权限再打开并且修改permission部分
 import 'ant-design-vue/dist/antd.css'; // or 'ant-design-vue/dist/antd.less'
 import Antd from 'ant-design-vue'
 Vue.use(Antd);

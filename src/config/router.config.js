@@ -37,7 +37,6 @@ export const asyncRouterMap = [
             {
                 path: '/demo',
                 name: 'demo',
-                redirect: '/demo/index',
                 component: RouteView,
                 meta: { title: 'demo管理', keepAlive: true, icon: 'dashboard', permission: ['dashboard'] },
                 children: [
